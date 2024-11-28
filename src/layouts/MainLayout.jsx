@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import CallToUs from "../components/CallToUs";
 import Pillars from "../components/Pillars";
 
@@ -28,6 +29,7 @@ function MainLayout() {
         <CallToUs />
         <Pillars />
       </MainLayoutContent>
+      <Footer />
     </MainLayoutContainer>
   );
 }
