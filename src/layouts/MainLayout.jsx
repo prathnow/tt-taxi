@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Header from "../components/Header";
 import CallToUs from "../components/CallToUs";
+import Pillars from "../components/Pillars";
 
 const MainLayoutContainer = styled.div`
   display: flex;
@@ -25,6 +26,7 @@ function MainLayout() {
       <Header />
       <MainLayoutContent>
         <CallToUs />
+        <Pillars />
       </MainLayoutContent>
     </MainLayoutContainer>
   );
