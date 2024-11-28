@@ -1,15 +1,19 @@
 import styled from "styled-components";
+import Header from "../components/Header";
 
 const MainLayoutContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   box-sizing: border-box;
+  text-align: center;
 `;
 
 const MainLayoutContent = styled.div`
-  max-width: 120rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
   text-align: center;
 `;
@@ -17,6 +21,7 @@ const MainLayoutContent = styled.div`
 function MainLayout() {
   return (
     <MainLayoutContainer>
+      <Header />
       <MainLayoutContent>content</MainLayoutContent>
     </MainLayoutContainer>
   );
