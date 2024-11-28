@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import "./fonts.css";
 
 const GlobalStyles = createGlobalStyle`
 *,
@@ -41,7 +42,6 @@ html {
 
   body {
     font-family: "Roboto", sans-serif;
-
     transition: color 0.3s, background-color 0.3s;
     min-height: 100vh;
     line-height: 1.5;
