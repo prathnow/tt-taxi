@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Header from "../components/Header";
+import CallToUs from "../components/CallToUs";
 
 const MainLayoutContainer = styled.div`
   display: flex;
@@ -22,7 +23,9 @@ function MainLayout() {
   return (
     <MainLayoutContainer>
       <Header />
-      <MainLayoutContent>content</MainLayoutContent>
+      <MainLayoutContent>
+        <CallToUs />
+      </MainLayoutContent>
     </MainLayoutContainer>
   );
 }
