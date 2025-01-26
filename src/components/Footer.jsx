@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import SocialLogos from "../ui/SocialLogos";
 
 const FooterContainer = styled.footer`
   background-color: ${({ theme }) => theme.mainBgColor.darkGrey};
@@ -61,6 +62,9 @@ const Footer = () => {
       id="kontakt"
       className="footer"
     >
+      <Section>
+        <SocialLogos />
+      </Section>
       <Section>
         <LinksList>
           <li>

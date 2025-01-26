@@ -3,8 +3,10 @@ import hero from "../assets/images/hero-bg.webp";
 import Logo from "../ui/Logo";
 import Navigation from "./Navigation";
 import Hero from "./Hero";
+import SocialLogos from "../ui/SocialLogos";
 
 const StyledHeader = styled.header`
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -12,7 +14,6 @@ const StyledHeader = styled.header`
   width: 100%;
   height: 49rem;
   background: black;
-  /* Obrazek jako tło z maską */
   background-image: linear-gradient(
       to right,
       black 5%,
@@ -25,6 +26,14 @@ const StyledHeader = styled.header`
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  @media (max-width: 800px) {
+    height: 40rem;
+  }
+
+  @media (max-width: 700px) {
+    height: 35rem;
+  }
 
   @media (max-width: 1300px) {
     background-size: cover;
@@ -41,7 +50,7 @@ const StyledHeader = styled.header`
         transparent 70%,
         black 90%
       ),
-      url(${hero}); /* Twój obrazek jako tło */
+      url(${hero});
     background-size: 75%;
     background-position: top top;
   }
@@ -63,9 +72,15 @@ const HeaderWrapper = styled.div`
   }
 `;
 
+const StyledSocialLogos = styled(SocialLogos)`
+  position: absolute;
+  right: 15%;
+  bottom: 0;
+`;
+
 function Header() {
   return (
-    <StyledHeader>
+    <StyledHeader id="header">
       <HeaderWrapper>
         <Logo
           $size="small"
@@ -75,6 +90,7 @@ function Header() {
       </HeaderWrapper>
 
       <Hero />
+      <StyledSocialLogos />
     </StyledHeader>
   );
 }
