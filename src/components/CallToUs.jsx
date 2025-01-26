@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import HeadingElement from "../ui/HeadingElement";
+import { MdLocalPhone } from "react-icons/md";
 
 const StyledCallToUs = styled.section`
   background-color: ${({ theme }) => theme.mainBgColor.yellow};
@@ -13,10 +14,12 @@ const Phone = styled.a`
 
 function CallToUs() {
   return (
-    <StyledCallToUs>
+    <StyledCallToUs className="call-to-us">
       <HeadingElement tag="h2">
         CZEKAMY NA TWÓJ TELEFON 24/7H
-        <Phone href="tel:+48537375008">+48 537 375 008</Phone>
+        <Phone href="tel:+48537375008">
+          Taxi Wieliczka <MdLocalPhone /> +48 537 375 008
+        </Phone>
       </HeadingElement>
     </StyledCallToUs>
   );
