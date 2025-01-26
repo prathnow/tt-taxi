@@ -15,7 +15,11 @@ const StyledPillars = styled.section`
 
   @media (max-width: 700px) {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 4rem 4rem;
+    margin: 0 10rem 0 10rem;
   }
 `;
 
@@ -25,7 +29,7 @@ const Gold = styled.span`
 
 function Pillars() {
   return (
-    <StyledPillars>
+    <StyledPillars className="pillars">
       <Pillar icon={<BiTimer />}>
         Szybko <Gold>bezpiecznie</Gold>
       </Pillar>
