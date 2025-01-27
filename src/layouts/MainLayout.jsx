@@ -6,6 +6,7 @@ import Pillars from "../components/Pillars";
 import AboutUs from "../components/AboutUs";
 import OurServices from "../components/OurServices";
 import AdditionalServices from "../components/AdditionalServices";
+import Awards from "../components/Awards";
 
 const MainLayoutContainer = styled.div`
   display: flex;
@@ -34,6 +35,7 @@ function MainLayout() {
         <AboutUs />
         <OurServices />
         <AdditionalServices />
+        <Awards />
       </MainLayoutContent>
       <Footer />
     </MainLayoutContainer>
