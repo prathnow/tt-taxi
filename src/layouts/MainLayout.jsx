@@ -7,6 +7,7 @@ import AboutUs from "../components/AboutUs";
 import OurServices from "../components/OurServices";
 import AdditionalServices from "../components/AdditionalServices";
 import Awards from "../components/Awards";
+import ScrollToTopButton from "../ui/ScrollToTopButton";
 
 const MainLayoutContainer = styled.div`
   display: flex;
@@ -38,6 +39,7 @@ function MainLayout() {
         <Awards />
       </MainLayoutContent>
       <Footer />
+      <ScrollToTopButton />
     </MainLayoutContainer>
   );
 }
