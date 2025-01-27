@@ -11,22 +11,22 @@ const links = [
   },
   {
     name: "O Nas",
-    href: "/my",
+    href: "/#my",
     title: "TT-Taxi Wieliczka",
   },
   {
     name: "Usługi",
-    href: "/uslugi",
+    href: "/#uslugi",
     title: "TT-Taxi Wieliczka",
   },
   {
     name: "Sklep",
-    href: "/sklep",
+    href: "/#dodatkowe",
     title: "TT-Taxi Wieliczka",
   },
   {
     name: "Kontakt",
-    href: "/kontakt",
+    href: "/#kontakt",
     title: "TT-Taxi Wieliczka",
   },
 ];
@@ -50,9 +50,11 @@ const BurgerWrapper = styled.div`
   @media (max-width: 600px) {
     display: block;
     align-self: center;
-    margin-left: 0;
-    position: absolute;
-    right: 2rem;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 100;
+    padding: 1rem;
   }
 `;
 
@@ -61,6 +63,10 @@ function Navigation() {
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prev) => !prev);
+  };
+
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
   };
 
   return (
@@ -78,6 +84,7 @@ function Navigation() {
           isOpen={isMobileMenuOpen}
           toggleMenu={toggleMobileMenu}
           links={links}
+          closeMenu={closeMobileMenu}
         />
       </BurgerWrapper>
     </>

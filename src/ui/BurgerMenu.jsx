@@ -17,6 +17,7 @@ const BurgerButton = styled.button`
     height: 3px;
     background: ${({ theme }) => theme.linkColor.menuLink};
     transition: transform 0.3s, opacity 0.3s;
+    border: 1px solid #ddd;
   }
 
   ${({ isOpen }) =>
@@ -35,7 +36,7 @@ const BurgerButton = styled.button`
 `;
 
 const MobileMenu = styled.div`
-  position: absolute;
+  position: fixed;
   top: 50px;
   right: 0;
   background: ${({ theme }) => theme.mainBgColor.grey};
@@ -58,7 +59,7 @@ const MobileMenu = styled.div`
   }
 `;
 
-function BurgerMenu({ isOpen, toggleMenu, links }) {
+function BurgerMenu({ isOpen, toggleMenu, links, closeMenu }) {
   return (
     <>
       {/* Burger Icon */}
@@ -79,6 +80,7 @@ function BurgerMenu({ isOpen, toggleMenu, links }) {
             key={index}
             href={link.href}
             title={link.title}
+            onClick={closeMenu}
           >
             {link.name}
           </a>
