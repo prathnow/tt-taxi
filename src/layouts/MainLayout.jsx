@@ -5,6 +5,7 @@ import CallToUs from "../components/CallToUs";
 import Pillars from "../components/Pillars";
 import AboutUs from "../components/AboutUs";
 import OurServices from "../components/OurServices";
+import AdditionalServices from "../components/AdditionalServices";
 
 const MainLayoutContainer = styled.div`
   display: flex;
@@ -32,6 +33,7 @@ function MainLayout() {
         <Pillars />
         <AboutUs />
         <OurServices />
+        <AdditionalServices />
       </MainLayoutContent>
       <Footer />
     </MainLayoutContainer>
