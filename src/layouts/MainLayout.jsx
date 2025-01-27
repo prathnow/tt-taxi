@@ -8,6 +8,7 @@ import OurServices from "../components/OurServices";
 import AdditionalServices from "../components/AdditionalServices";
 import Awards from "../components/Awards";
 import ScrollToTopButton from "../ui/ScrollToTopButton";
+import LazySection from "../components/LazySection";
 
 const MainLayoutContainer = styled.div`
   display: flex;
@@ -31,14 +32,28 @@ function MainLayout() {
     <MainLayoutContainer>
       <Header />
       <MainLayoutContent>
-        <CallToUs />
-        <Pillars />
-        <AboutUs />
-        <OurServices />
-        <AdditionalServices />
-        <Awards />
+        <LazySection>
+          <CallToUs />
+        </LazySection>
+        <LazySection>
+          <Pillars />
+        </LazySection>
+        <LazySection>
+          <AboutUs />
+        </LazySection>
+        <LazySection>
+          <OurServices />
+        </LazySection>
+        <LazySection>
+          <AdditionalServices />
+        </LazySection>
+        <LazySection>
+          <Awards />
+        </LazySection>
       </MainLayoutContent>
-      <Footer />
+      <LazySection>
+        <Footer />
+      </LazySection>
       <ScrollToTopButton />
     </MainLayoutContainer>
   );
