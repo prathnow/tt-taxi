@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import CallToUs from "../components/CallToUs";
 import Pillars from "../components/Pillars";
+import AboutUs from "../components/AboutUs";
 
 const MainLayoutContainer = styled.div`
   display: flex;
@@ -28,6 +29,7 @@ function MainLayout() {
       <MainLayoutContent>
         <CallToUs />
         <Pillars />
+        <AboutUs />
       </MainLayoutContent>
       <Footer />
     </MainLayoutContainer>
