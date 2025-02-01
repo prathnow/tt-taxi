@@ -12,6 +12,7 @@ const GlobalStyles = createGlobalStyle`
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
   }
   @media (max-width: 480px) {
     html {
@@ -98,6 +99,16 @@ html {
   img {
     max-width: 100%;
   }
+  
+  .lazy-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+.lazy-section.visible {
+  opacity: 1;
+  transform: translateY(0);
 `;
 
 export default GlobalStyles;

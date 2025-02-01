@@ -15,6 +15,7 @@ const tags = {
   h3: css`
     font-size: ${({ theme }) => theme.headingSize.h3};
     color: ${({ theme }) => theme.headingColor.h3};
+    line-height: 1.2;
   `,
 };
 

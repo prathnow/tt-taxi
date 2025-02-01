@@ -1,25 +1,25 @@
 const theme = {
   fontSize: {
     large: "2rem",
-    medium: "1.5rem",
-    small: "1rem",
+    medium: "1.4rem",
+    small: "1.2rem",
   },
   fontColor: {
     main: "#1E1E1E",
     secondary: "#FFFFFF",
-    tertiary: "#979797",
+    tertiary: "#999999",
     quaternary: "#C4C4C4",
     gold: "#FF9500",
   },
   headingSize: {
     h1: "4rem",
-    h2: "2rem",
-    h3: "1.2rem",
+    h2: "1.8rem",
+    h3: "1.4rem",
   },
   headingColor: {
     h1: "#ffffff",
-    h2: "#0f0e0e",
-    h3: "#888888",
+    h2: "##C4C4C4",
+    h3: "#1E1E1E",
   },
   mainBgColor: {
     black: "#000",
