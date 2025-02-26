@@ -1,0 +1,202 @@
+{
+  "taxiServices": [
+    {
+      "id": "dccc4fe0-bc65-4dbe-8df6-88afcd957eae",
+      "name": "Bon Podarunkowy Taxi Wieliczka TT Taxi 24h",
+      "price": "46,30 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/bon-podarunkowy-taxi-wieliczka-tt-taxi-24h",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/21afed7b-8b09-48f9-80c3-3ad124b5d831.jpeg",
+      "description": "Bon Podarunkowy na przejazdy dla Twoich bliskich *[przejazdy dzieci poniżej 18-stego roku życia - konieczne sporządzenie Umowy przewozowej (prawny opiekun + klauzula RODO)] <p> Gift Voucher for travel for your loved ones *[travel for children under 18 - it is necessary to draw up a Transport Agreement (legal guardian + GDPR clause)]</p>"
+    },
+    {
+      "id": "2abcae56-a381-45ea-9c83-9534484df196",
+      "name": "Busy 31+1 V Taxi 24 numer telefonu Wieliczka +48537375008 całodobowo 7 dni TT Taxi",
+      "price": "50,00 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/busy-31-1-v-taxi-24-numer-telefonu-wieliczka-48537375008-calodobowo-7-dni-tt-taxi",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/d5e04338-8e00-4b23-8e2c-344942e27d64.jpeg",
+      "description": "Potrzebujesz większego środka Transportu?<p>Do you need a larger means of transport?</p>"
+    },
+    {
+      "id": "7c7715a2-2616-42f4-8ef9-9aa7652c9ba0",
+      "name": "Dyspozycja Kierowcy Taxi Wieliczka",
+      "price": "46,30 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/dyspozycja-kierowcy-taxi-wieliczka",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/2c158e29-79ca-44bb-9f10-1bbef9e7d205.jpeg",
+      "description": "Dyspozycja Kierowcy (obejmuje wszelakiego typu kursy : zakopane, oświęcim , wesela, imprezy okolicznościowe<p>Driver's Disposition (includes all types of trips: Zakopane, Oświęcim, weddings, special events)</p>"
+    },
+    {
+      "id": "8e3516d1-bee2-4c85-a3c8-029725b02e2a",
+      "name": "Karta podarunkowa Gift Card Taxi 24 numer telefonu Wieliczka +48537375008 całodobowo 7 dni TT Taxi",
+      "price": "50,00 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/karta-podarunkowa-gift-card-taxi-24-numer-telefonu-wieliczka-48537375008-calodobowo-7-dni-tt-taxi",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/9d69c794-d24d-4953-8f7e-e03640256f31.jpeg",
+      "description": "Karta podarunkowa (jednorazowy użytek) + można łączyć z aktualnymi promocjami<p>Gift Card (single use) + can be combined with current promotions</p>"
+    },
+    {
+      "id": "d0b3376e-a9a7-42ea-a1fb-95d0209694e2",
+      "name": "Kawalerski Bachelor Taxi 24 numer telefonu Wieliczka +48537375008 całodobowo 7 dni TT Taxi",
+      "price": "46,30 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/kawalerski-bachelor-taxi-24-numer-telefonu-wieliczka-48537375008-calodobowo-7-dni-tt-taxi",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/70804e1f-5c3b-411b-a467-1f842bdece4b.jpeg",
+      "description": "Usługa obejmuje pełen pakiet serwisowy (odbiór z wybranych punktów oraz transport do wskazanego miejsca imrezy . Oraz usługe rozwozu gości do domów po zakończonej imprezie ) ceny najlepiej ustalać telefonicznie. * obowiązuje umowa RODO oraz umowa Przewozowa. samochody maxymalnie 3 letnie (hybrydy) kierowcy ubrani galowo.<p>The service includes a full service package (pick-up from selected points and transport to the indicated event location. And the service of transporting guests to their homes after the event) prices are best agreed by phone. * GDPR agreement and Transport agreement apply. cars max. 3 years old (hybrids) drivers dressed in formal clothes.</p>"
+    },
+    {
+      "id": "479749a4-fe3c-450a-b651-3ad24100d317",
+      "name": "Kopalnia Soli Salt Mine Taxi 24 numer telefonu Wieliczka +48537375008 całodobowo 7 dni TT Taxi",
+      "price": "50,00 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/kopalnia-soli-salt-mine-taxi-24-numer-telefonu-wieliczka-48537375008-calodobowo-7-dni-tt-taxi",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/ec71de88-9917-4286-83ee-62d6ab748dc0.jpeg",
+      "description": "Transport z hotelu do kopalni soli, odbiór z kopalni soli po zwiedzaniu<p>Transport from the Hotel to the Salt Mine, pick-up from the Salt Mine after the tour</p>"
+    },
+    {
+      "id": "a7172c93-94ee-43c6-8016-4070b4a02668",
+      "name": "Lotnisko Airport Balice Taxi 24 numer telefonu Wieliczka +48537375008 całodobowo 7 dni TT Taxi",
+      "price": "50,00 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/lotnisko-airport-balice-taxi-24-numer-telefonu-wieliczka-48537375008-calodobowo-7-dni-tt-taxi",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/4be58a8d-cb01-44f7-b516-a54cea8b671d.jpeg",
+      "description": "Transfer na lotnisko lub odbiór z lotniska + kierowca z kartą z Twoim imieniem i nazwiskiem Taxi na lotnisko Balice Kraków / Pyrzowice / Katowice / Ożarów (zawiezienie być odbierane)<p>Transfer to the airport or pickup from the airport + driver with a card with Your name on it Taxi na lotnisko Balice Kraków / Pyrzowice / Katowice / Ożarów</p>"
+    },
+    {
+      "id": "8d5492a7-656d-4fdc-8932-c974ff19d234",
+      "name": "Luksusowe Autobusy Taxi 24 numer telefonu Wieliczka +48537375008 całodobowo 7 dni TT Taxi",
+      "price": "50,00 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/luksusowe-autobusy-taxi-24-numer-telefonu-wieliczka-48537375008-calodobowo-7-dni-tt-taxi",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/82e4a537-4c5b-4622-b8f9-c3c4a518eb0d.jpeg",
+      "description": "Potrzebujesz jednego lub kilku luksusowych Autobusów w full opcji? ta rubryka jest dla Ciebie. <p>Do you need one or several luxury buses with full options? this column is for you.</p>"
+    },
+    {
+      "id": "f800f765-b0b1-4c7d-ae5c-b5bd54443694",
+      "name": "Luksusowe Limuzyny  Taxi 24 numer telefonu Wieliczka +48537375008 całodobowo 7 dni TT Taxi",
+      "price": "50,00 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/luksusowe-limuzyny-taxi-24-numer-telefonu-wieliczka-48537375008-calodobowo-7-dni-tt-taxi",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/b0a98a64-6093-479d-b77d-078e626b8f16.jpeg",
+      "description": "Potrzeba Luksusu? <p>Need Luxury?</p>"
+    },
+    {
+      "id": "770425b9-e03a-4afa-877d-59f879ab8c12",
+      "name": "Prywatny Kierowca Private Driver Taxi 24 numer telefonu Wieliczka +48537375008 całodobowo 7 dni TT Taxi",
+      "price": "46,30 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/prywatny-kierowca-private-driver-taxi-24-numer-telefonu-wieliczka-48537375008-calodobowo-7-dni-tt-taxi",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/3dcc9db8-0ad6-41ab-b7f9-083597aad069.jpeg",
+      "description": "Oferujemy Państwu wszelakiego typu usługi transportowe Taxi Wieliczka / Kraków / Polska min. Port lotniczy<p>We offer you all types of transport services Taxi Wieliczka / Krakow / Poland min. Airport</p>"
+    },
+    {
+      "id": "3b840e09-edba-4c33-8c39-f0ea5af9b45e",
+      "name": "Przewóz Dokumentów Papierów Wartościowych",
+      "price": "50,00 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/przewoz-dokumentow-papierow-wartosciowych",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/10d2a895-2883-46b9-8ea4-a41d58c3bbd8.jpeg",
+      "description": "Przewieziemy Twoje ( dokumenty , paczki , zapomniane klucze oraz zrobimy zakupy te małe i te duże. Zapraszamy) </p>We will transport your (documents, packages, forgotten keys and we will do shopping, both small and large. We invite you)</p>"
+    },
+    {
+      "id": "d843a6a1-0db8-43aa-adc0-9fde7e6981e3",
+      "name": "Rafting Spływ Kajakowy Taxi 24 numer telefonu Wieliczka +48537375008 całodobowo 7 dni TT Taxi",
+      "price": "50,00 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/rafting-splyw-kajakowy-taxi-24-numer-telefonu-wieliczka-48537375008-calodobowo-7-dni-tt-taxi",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/868db46d-3d5b-4adb-a834-8f5bbd2701a7.jpeg",
+      "description": "W programie wycieczki: odbiór z hotelu, transport nad rzekę w górach, rafting, ognisko, poczęstunek i powrót do hotelu. <p>The trip includes: pickup from the hotel, transport to the river in the mountains, rafting, bonfire, refreshments and return to the hotel</p>"
+    },
+    {
+      "id": "a089bb6d-0a27-490d-ab28-85725d0f1dac",
+      "name": "Transfer Dzieci Child Taxi 24 numer telefonu Wieliczka +48537375008 całodobowo 7 dni TT Taxi",
+      "price": "50,00 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/transfer-dzieci-child-taxi-24-numer-telefonu-wieliczka-48537375008-calodobowo-7-dni-tt-taxi",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/07130a48-40d6-4ad5-8957-8ee80f66ea91.jpeg",
+      "description": "Do tej usługi konieczna jest pisemna zgoda rodzica lub prawnego opiekuna oraz wypełnienie formularza RODO który zostanie przesłany drogą mailową. <p>This service requires written consent from a parent or legal guardian and completion of the GDPR form which will be sent by email.</p>"
+    },
+    {
+      "id": "85ece3a1-8d9b-4627-8464-9286eccf1417",
+      "name": "Transfer Międzymiastowy Intercity Taxi 24 numer telefonu Wieliczka +48537375008 całodobowo 7 dni TT Taxi",
+      "price": "50,00 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/transfer-miedzymiastowy-intercity-taxi-24-numer-telefonu-wieliczka-48537375008-calodobowo-7-dni-tt-taxi",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/c710754d-a849-45dc-92b3-1a6a1de292cb.jpeg",
+      "description": "Potrzebują Państwo szybo i sprawnie przemieścić się między województwami? <p>Do you need to move between provinces quickly and efficiently?</p>"
+    },
+    {
+      "id": "3201c1ee-fa16-49af-bb44-ad80190095f7",
+      "name": "Transfer Taxi Dworzec Autobusowy Bus station",
+      "price": "50,00 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/transfer-taxi-dworzec-autobusowy-bus-station",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/8539e3ae-96d1-4c5b-b8b2-8c48bc568edf.jpeg",
+      "description": "Transfer to Bus station or pickup + driver with a card with Your name on it. <p>Odbiór lub zawiezienie na dworzec autobusowy MDA w przypadku odbioru kierowca z nazwiskiem na terminalu.</p>"
+    },
+    {
+      "id": "b8948c14-765a-4db3-a4c3-5412a36314cd",
+      "name": "Transfer Taxi Dworzec Kolejowy Rail Station  Wieliczka 24h",
+      "price": "50,00 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/transfer-taxi-dworzec-kolejowy-rail-station-wieliczka-24h",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/9a2fdf33-8b85-4637-a393-2b536422be1d.jpeg",
+      "description": "Transfer to rail station or pickup + driver with a card with Your name on it. <p>Odbiór lub zawiezienie na dworzec kolejowy PKP w przypadku odbioru kierowca z nazwiskiem na terminalu.</p>"
+    },
+    {
+      "id": "382be7ca-9138-4749-86be-d6e54afe9ab5",
+      "name": "Transfer Taxi Energylandia Taxi 24 numer telefonu Wieliczka +48537375008 całodobowo 7 dni TT Taxi",
+      "price": "50,00 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/transfer-taxi-energylandia-taxi-24-numer-telefonu-wieliczka-48537375008-calodobowo-7-dni-tt-taxi",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/d79f8980-dc2b-47f6-8d6a-bcc4d8853e86.jpeg",
+      "description": "W cenie wycieczki: odbiór z hotelu, przejazd do parku rozrywki i powrót do hotelu. <p>The tour includes: hotel pickup, transfer to the amusement park and return to the hotel.</p>"
+    },
+    {
+      "id": "6cf0eb43-b11e-4b33-b2e0-262a9b0a390b",
+      "name": "Trip Wycieczka AUSHWITZ Taxi Wieliczka TT TAXI",
+      "price": "50,00 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/trip-wycieczka-aushwitz-taxi-wieliczka-tt-taxi",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/45a40084-da74-459f-98b0-60fd6fec0173.jpeg",
+      "description": "Wycieczka do niemieckiego obozu koncentracyjnego Auschwitz-Birkenau. Oferta w jedną stronę lub całodniowa usługa. <p>A trip to the German concentration camp Auschwitz-Birkenau. One way deal or full day service.</p>"
+    },
+    {
+      "id": "cba23afe-fc47-4e01-9d40-0a108a6fcacb",
+      "name": "Voucher Taxi 24",
+      "price": "50,00 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/voucher-taxi-24-numer-telefonu-wieliczka-48537375008-calodobowo-7-dni-tt-taxi",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/9c921220-8266-415b-a1e4-13f1791f202b.jpeg",
+      "description": "Voucher na przejazdy firmowe Państwa Pracowników * wymagany wcześniejszy kontakt ( obowiązuje : Umowa przewozowa, klauzula RODO). <p>Voucher for company travel of your employees * prior contact required (applies: Transport agreement, GDPR clause).</p>"
+    },
+    {
+      "id": "51feae11-6a3a-4a2a-9e43-b090525e06df",
+      "name": "Wesele Wedding Rozwożenie Gości | Transporting guests",
+      "price": "50,00 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/wesele-wedding-rozwozenie-gosci-transporting-guests",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/2906faac-acbd-4dc7-a6bd-a0d7dfa99242.jpeg",
+      "description": "Organizujecie wesele? Potrzeba transportu dla Was w tym ważnym dniu i dla gości? Ta oferta jest dla Was. <p>Are you organizing a wedding? Do you need transport for you and your guests on this important day? This offer is for you.</p>"
+    },
+    {
+      "id": "81224b74-c6a7-47ec-9dfa-a537edab7be5",
+      "name": "Wieczór Panieński Hen Night",
+      "price": "50,00 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/wieczor-panienski-hen-night",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/c6cde82d-b544-408e-9228-b12bc4968ba1.jpeg",
+      "description": "Usługa obejmuje pełen pakiet serwisowy (odbiór z wybranych punktów oraz transport do wskazanego miejsca imrezy . Oraz usługe rozwozu gości do domów po zakończonej imprezie ) ceny najlepiej ustalać telefonicznie. * obowiązuje umowa RODO oraz umowa Przewozowa. samochody maxymalnie 3 letnie (hybrydy) kierowcy ubrani galowo. <p>The service includes a full service package (pick-up from selected points and transport to the indicated event location. And the service of transporting guests to their homes after the event) prices are best agreed by phone. * GDPR agreement and Transport agreement apply. cars max. 3 years old (hybrids) drivers dressed in formal clothes.</p>"
+    },
+    {
+      "id": "8763150d-0327-457f-ac6f-2a0843203ff3",
+      "name": "Zlecenie rezerwacji Terminowej Taxi 24",
+      "price": "50,00 zł",
+      "currency": "PLN",
+      "link": "https://tt-taxi-tomasz-tofin.sumupstore.com/produkt/zlecenie-rezerwacji-terminowej-taxi-24-numer-telefonu-wieliczka-48537375008-calodobowo-7-dni-tt-taxi",
+      "image": "https://cdn.sumup.store/2/th640/68357fac484febedda7ef36d10e8af4b/ef653acd-5f18-47be-a734-44261ec36039.jpeg",
+      "description": "<p>Zlecenie rezerwacji Terminowej:</p><p>1. Opłata 50zł - założenie *rezerwacji</p><p>* jeśli kurs wynosi powyżej 15 kilometrów *opłata rezerwacyjna jest odliczana od wskazań licznika.</p><p>* jeśli kurs wynosi poniżej 15 kilometrów * do opłaty rezerwacyjnej jest doliczana wartość wskazań taksometru.</p><p>Request for a Timely Reservation:</p><p>1. Fee PLN 50 - establishment of *reservation</p><p>* if the distance is over 15 kilometers * the reservation fee is deducted from the meter reading.</p><p>* if the distance is under 15 kilometers * the taximeter reading is added to the reservation fee.</p>"
+    }
+  ]
+}
