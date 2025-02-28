@@ -8,6 +8,12 @@ const FooterContainer = styled.footer`
   display: flex;
   justify-content: space-around;
   padding: 20px 40px;
+
+  & div:nth-child(2) {
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
 `;
 
 const Section = styled.div`
