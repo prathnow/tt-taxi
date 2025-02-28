@@ -4,6 +4,7 @@ import Logo from "../ui/Logo";
 import Navigation from "./Navigation";
 import Hero from "./Hero";
 import SocialLogos from "../ui/SocialLogos";
+import { useLocation } from "react-router";
 
 const StyledHeader = styled.header`
   position: relative;
@@ -12,7 +13,7 @@ const StyledHeader = styled.header`
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  height: 49rem;
+  height: ${(props) => (props.isHome ? "49rem" : "auto")};
   background: black;
   background-image: linear-gradient(
       to right,
@@ -28,11 +29,11 @@ const StyledHeader = styled.header`
   background-repeat: no-repeat;
 
   @media (max-width: 800px) {
-    height: 40rem;
+    height: ${(props) => (props.isHome ? "40rem" : "auto")};
   }
 
   @media (max-width: 700px) {
-    height: 35rem;
+    height: ${(props) => (props.isHome ? "35rem" : "auto")};
   }
 
   @media (max-width: 1300px) {
@@ -42,7 +43,7 @@ const StyledHeader = styled.header`
   }
 
   @media (min-width: 1450px) {
-    height: 55rem;
+    height: ${(props) => (props.isHome ? "55rem" : "auto")};
     background-image: linear-gradient(
         to right,
         black 10%,
@@ -79,8 +80,14 @@ const StyledSocialLogos = styled(SocialLogos)`
 `;
 
 function Header() {
+  const location = useLocation();
+  const isHome = location.pathname === "/";
+
   return (
-    <StyledHeader id="header">
+    <StyledHeader
+      id="header"
+      isHome={isHome}
+    >
       <HeaderWrapper>
         <Logo
           $size="small"
@@ -89,8 +96,12 @@ function Header() {
         <Navigation />
       </HeaderWrapper>
 
-      <Hero />
-      <StyledSocialLogos />
+      {isHome && (
+        <>
+          <Hero />
+          <StyledSocialLogos />
+        </>
+      )}
     </StyledHeader>
   );
 }
