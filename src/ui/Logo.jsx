@@ -21,11 +21,13 @@ Img.defaultProps = {
   $size: "medium",
 };
 
-function Logo({ text }) {
+function Logo({ text, size, style }) {
   return (
     <Img
       src={logo}
       alt={text}
+      $size={size}
+      style={style}
     />
   );
 }
