@@ -9,7 +9,7 @@ const StyledCallToUs = styled.section`
 
 const Phone = styled.a`
   display: block;
-  font-size: 130%;
+  font-size: 2.2rem;
 `;
 
 function CallToUs() {
