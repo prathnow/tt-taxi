@@ -5,6 +5,7 @@ import ContactForm from "../components/ContactForm";
 import HeadingElement from "../ui/HeadingElement";
 import { MdLocalPhone } from "react-icons/md";
 import Logo from "../ui/Logo";
+import { SinglePageLayout } from "../ui/SinglePageLayout";
 
 const ContactLayoutContainer = styled.div`
   display: flex;
@@ -15,21 +16,6 @@ const ContactLayoutContainer = styled.div`
   box-sizing: border-box;
   text-align: center;
   background-color: #f9f9f9;
-`;
-
-const ContactLayoutContent = styled.div`
-  width: 90%;
-  max-width: 120rem;
-  background-color: white;
-  padding: 3rem;
-  margin: 2rem auto;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 `;
 
 const MapContainer = styled.div`
@@ -78,7 +64,7 @@ function Contact() {
   return (
     <ContactLayoutContainer>
       <Header />
-      <ContactLayoutContent>
+      <SinglePageLayout>
         <MapContainer>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2565.2541181436613!2d20.077175!3d49.98784500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716411ab7aa8b81%3A0x4037aeb7f93f9e83!2s24h%20TT%20TAXI%20Wieliczka!5e0!3m2!1spl!2spl!4v1739900942951!5m2!1spl!2spl"
@@ -116,7 +102,7 @@ function Contact() {
           </ContactInfo>
           <ContactForm />
         </ContactContainer>
-      </ContactLayoutContent>
+      </SinglePageLayout>
       <Footer />
     </ContactLayoutContainer>
   );

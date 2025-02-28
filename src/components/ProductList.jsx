@@ -6,6 +6,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import { Link, useNavigate, useLocation } from "react-router";
 import ScrollToTopButton from "../ui/ScrollToTopButton";
+import { SinglePageLayout } from "../ui/SinglePageLayout";
 
 const ProductHeadingList = styled.h1`
   font-size: 2.4rem;
@@ -21,21 +22,6 @@ const ProductListContainer = styled.div`
   box-sizing: border-box;
   background-color: #f9f9f9;
   padding: 0;
-`;
-
-const ProductListContent = styled.div`
-  width: 90%;
-  max-width: 120rem;
-  min-height: 70vh;
-  background-color: white;
-  padding: 3rem;
-  margin: 2rem auto;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
 `;
 
 const ProductGrid = styled.ul`
@@ -191,7 +177,7 @@ function ProductList() {
   return (
     <ProductListContainer>
       <Header />
-      <ProductListContent>
+      <SinglePageLayout>
         {selectedProduct ? (
           <ProductDetails
             productId={selectedProduct}
@@ -230,7 +216,7 @@ function ProductList() {
             )}
           </>
         )}
-      </ProductListContent>
+      </SinglePageLayout>
       <Footer />
       <ScrollToTopButton />
     </ProductListContainer>
