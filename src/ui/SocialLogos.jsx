@@ -32,7 +32,7 @@ const socialLinks = [
   {
     icon: FaTiktok,
     url: "https://www.tiktok.com/@tt_taxi_pl",
-    title: "LinkedIn",
+    title: "TikTok",
   },
 ];
 
