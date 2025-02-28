@@ -1,13 +1,15 @@
 import styled from "styled-components";
 import { BuyButton } from "./BuyButton";
+import { useNavigate } from "react-router";
 
 const StyledAdditionalServiceItem = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-width: 25%; /* Szerokość boxa */
-  max-width: 30$;
+  max-width: 30%; /* Szerokość boxa */
+  height: 100%;
+  flex-grow: 1;
   border: 1px solid ${({ theme }) => theme.fontColor.gold}; /* Kolor ramki */
   border-radius: 8px; /* Zaokrąglenie rogów */
   padding: 1rem;
@@ -19,10 +21,15 @@ const StyledAdditionalServiceItem = styled.div`
   &:hover {
     transform: translateY(-5px); /* Efekt podniesienia */
   }
+
+  @media (max-width: 768px) {
+    max-width: 80%;
+    height: auto;
+  }
 `;
 
 const ServiceImage = styled.img`
-  width: 100%;
+  width: 14rem;
   height: auto;
   border-radius: 8px;
 `;
@@ -39,14 +46,18 @@ const ServiceDescription = styled.p`
 `;
 
 function AdditionalServicesItem({ item }) {
-  const { img, title, description } = item;
+  const { image, title, description, link } = item;
+  const navigate = useNavigate();
 
   return (
     <StyledAdditionalServiceItem>
-      <ServiceImage src={img}></ServiceImage>
+      <ServiceImage
+        src={image}
+        alt={title}
+      ></ServiceImage>
       <ServiceTitle>{title}</ServiceTitle>
       <ServiceDescription>{description}</ServiceDescription>
-      <BuyButton>Kup</BuyButton>
+      <BuyButton onClick={() => navigate(link)}>Kup</BuyButton>
     </StyledAdditionalServiceItem>
   );
 }
