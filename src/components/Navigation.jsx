@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import Menu from "../ui/Menu";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import BurgerMenu from "../ui/BurgerMenu";
+import { useLocation } from "react-router";
 
 const links = [
   {
@@ -21,12 +22,12 @@ const links = [
   },
   {
     name: "Sklep",
-    href: "/#dodatkowe",
+    href: "/sklep",
     title: "TT-Taxi Wieliczka",
   },
   {
     name: "Kontakt",
-    href: "/#kontakt",
+    href: "/kontakt",
     title: "TT-Taxi Wieliczka",
   },
 ];
@@ -60,6 +61,7 @@ const BurgerWrapper = styled.div`
 
 function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location = useLocation();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prev) => !prev);
@@ -68,6 +70,15 @@ function Navigation() {
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
   };
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  });
 
   return (
     <>
