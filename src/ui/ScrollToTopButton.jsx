@@ -51,6 +51,7 @@ const ScrollToTopButton = () => {
     <Button
       isVisible={isVisible}
       onClick={scrollToTop}
+      aria-label="Powrót na górę"
     >
       <FaArrowCircleUp />
     </Button>
