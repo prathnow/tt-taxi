@@ -2,7 +2,7 @@ import { useInView } from "react-intersection-observer";
 
 const LazySection = ({ children }) => {
   const { ref, inView } = useInView({
-    threshold: 0.2, // Widoczność w 20%
+    threshold: 0.15, // Widoczność w 20%
     triggerOnce: true, // Obserwacja tylko raz
   });
 
