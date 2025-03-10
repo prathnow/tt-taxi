@@ -6,8 +6,10 @@ const FooterContainer = styled.footer`
   color: #ffffff;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding: 20px 40px;
+  margin-top: auto;
 
   & div:nth-child(2) {
     @media (max-width: 768px) {
@@ -35,7 +37,7 @@ const LinksList = styled.ul`
     a {
       text-decoration: none;
       color: ${({ theme }) => theme.headingColor.h2};
-      font-size: 14px;
+      font-size: 1.2rem;
       transition: all 0.3s;
 
       &:hover {
@@ -47,7 +49,11 @@ const LinksList = styled.ul`
 
 const ContactInfo = styled.div`
   text-align: right;
-  font-size: 14px;
+  font-size: 1.2rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.3rem;
+  }
 
   p {
   }
@@ -59,6 +65,18 @@ const ContactInfo = styled.div`
     &:hover {
       color: #ccc;
     }
+  }
+`;
+
+const Copy = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 3rem;
+  font-size: 1rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.2rem;
   }
 `;
 
@@ -105,6 +123,11 @@ const Footer = () => {
           </p>
         </ContactInfo>
       </Section>
+      <Copy>
+        TT-Taxi Wieliczka © {new Date().getFullYear()}&nbsp;
+        <a href="http://patrykoduje.pl/">patrykoduje.pl</a>&nbsp;- Wszelkie
+        prawa zastrzeżone.
+      </Copy>
     </FooterContainer>
   );
 };
