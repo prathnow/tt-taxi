@@ -5,7 +5,12 @@ const CompanyImg = styled.img`
 `;
 
 function CompanyImage({ img }) {
-  return <CompanyImg src={img} />;
+  return (
+    <CompanyImg
+      src={img}
+      alt="TT-Taxi Wieliczka Firma Transportowa Roku 2024"
+    />
+  );
 }
 
 export default CompanyImage;
