@@ -1,4 +1,6 @@
+import { useEffect } from "react";
 import { createPortal } from "react-dom";
+import { MdClose } from "react-icons/md";
 import styled, { keyframes } from "styled-components";
 
 const fadeIn = keyframes`
@@ -27,7 +29,7 @@ const Overlay = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +41,7 @@ const ModalContainer = styled.div`
   background: #fff;
   padding: 2rem;
   border-radius: 1rem;
-  max-width: 80rem;
+  max-width: 65rem;
   width: 100%;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   position: relative;
@@ -57,12 +59,25 @@ const CloseButton = styled.button`
 `;
 
 function Modal({ isOpen, onClose, children }) {
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") {
+        onClose();
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [onClose]);
+
   if (!isOpen) return null;
 
   return createPortal(
-    <Overlay>
-      <ModalContainer>
-        <CloseButton onClick={onClose}>x</CloseButton>
+    <Overlay onClick={onClose}>
+      <ModalContainer onClick={(e) => e.stopPropagation()}>
+        <CloseButton onClick={onClose}>
+          <MdClose size={"2.6rem"} />
+        </CloseButton>
         {children}
       </ModalContainer>
     </Overlay>,
